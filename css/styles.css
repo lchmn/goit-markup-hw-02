@@ -129,3 +129,7 @@ font-size: 36px;
         letter-spacing: 0.02em;
         color: var(--color-grey);
 }
+.footer{
+    background-color: var(--color-dark);
+    
+}
