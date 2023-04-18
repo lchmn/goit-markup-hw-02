@@ -6,6 +6,7 @@
 --color-blue: #4D5AE5;
 --color-white: #ffffff;
 --color-blue-2: #404bbf;
+--color-lightblue: #F4F4FD;
 }
 body {
     margin: 0;
@@ -99,4 +100,32 @@ color: var(--color-blue-2);
     line-height: 1.5em;
     letter-spacing: 0.02em;
     color: var(--color-grey);
+}
+.heading-job{
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--color-dark);
+}
+.team{
+    background-color: var(--color-lightblue);
+}
+.heading-team{
+font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--color-dark);
+}
+.team .team-item{
+    background-color: var(--color-white);
+}
+.team .team-item .team-item-title{
+    font-size: 16px;
+        line-height: 1.5em;
+        letter-spacing: 0.02em;
+        color: var(--color-grey);
 }
