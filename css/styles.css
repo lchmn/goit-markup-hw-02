@@ -2,17 +2,30 @@
 
 :root{
 --color-dark: #2E2F42;
+--color-grey: #434455;
 --color-blue: #4D5AE5;
+--color-white: #ffffff;
+--color-blue-2: #404bbf;
 }
 body {
     margin: 0;
     padding: 0;
+    font-family: "Roboto";
+    color: #434455;
+    background-color: var(--color-white);
+
+}
+.link {
+    text-decoration: none;
+}
+.list{
+    list-style: none;
 }
 .top-line{
-    height: 72px;
+    /* height: 72px;
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items: center; */
 }
 .logo {
     color: var(--color-dark);
@@ -21,16 +34,56 @@ body {
     font-weight: 800;
     font-size: 18px;
     line-height: 21px;
-    text-decoration: none;
-}
-.logo span{
+    text-decoration: none; 
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
     color: var(--color-blue);
 }
-.menu, .address{
-    display: inline-flex;
+.logo .dark-text{
+    color: var(--color-dark);
+}
+.menu .menu-item{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--color-dark);
+}
+.menu .menu-item:hover, .menu .menu-item:focus{
+color: var(--color-blue-2);
+}
+.address{
+    font-style: normal;
+}
+.address .list-item{
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--color-grey);
+}
+.address .list-item:hover, .address .list-item:focus{
+    color: var(--color-blue-2);
 }
 .hero{
-    width: 100vw;
-    height: 600px;
-    background: #2E2F42;
+    background-color: var(--color-dark);
+}
+.hero .hero-text{
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--color-white);
+}
+.btn{
+    background-color: var(--color-blue);
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: 16px;
+    line-height: 1.5em;
+    letter-spacing: 0.04em;
+    color: var(--color-white);
+}
+.btn:hover, .btn:focus{
+    background-color: var(--color-blue-2);
+    cursor: pointer;
 }
