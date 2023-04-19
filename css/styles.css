@@ -119,7 +119,7 @@ color: var(--color-blue-2);
 .team .team-item{
     background-color: var(--color-white);
 }
-.team .team-item .team-item-title{
+.team .team-item-title{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -137,5 +137,5 @@ color: var(--color-blue-2);
     background-color: var(--color-dark);
 }
 .footer .white-text{
-    color: var(--color-lightblue);
+    color: #f4f4fd;
 }
