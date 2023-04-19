@@ -121,9 +121,9 @@ font-size: 36px;
 }
 .team .team-item .team-item-title{
     font-size: 16px;
-        line-height: 1.5em;
-        letter-spacing: 0.02em;
-        color: var(--color-grey);
+    line-height: 1.5em;
+    letter-spacing: 0.02em;
+    color: var(--color-grey);
 }
 .footer{
     background-color: var(--color-dark);
