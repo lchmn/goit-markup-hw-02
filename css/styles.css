@@ -109,7 +109,7 @@ color: var(--color-blue-2);
     background-color: var(--color-lightblue);
 }
 .heading-team{
-font-size: 36px;
+    font-size: 36px;
     line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
@@ -120,6 +120,14 @@ font-size: 36px;
     background-color: var(--color-white);
 }
 .team .team-item .team-item-title{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--color-dark);
+    letter-spacing: 0.02em;
+}
+.team .team-item .team-item-text{
     font-size: 16px;
     line-height: 1.5em;
     letter-spacing: 0.02em;
@@ -127,5 +135,7 @@ font-size: 36px;
 }
 .footer{
     background-color: var(--color-dark);
-    
+}
+.footer .white-text{
+    color: var(--color-lightblue);
 }
