@@ -88,18 +88,14 @@ color: var(--color-blue-2);
     background-color: var(--color-blue-2);
     cursor: pointer;
 }
-.feature-item{
+
+.feature-item .feature-title{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--color-dark);
-}
-.feature-item .feature-title{
-    font-size: 16px;
-    line-height: 1.5em;
     letter-spacing: 0.02em;
-    color: var(--color-grey);
 }
 .heading-job{
     font-size: 36px;
